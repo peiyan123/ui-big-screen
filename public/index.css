@@ -1,0 +1,51 @@
+html, body {
+    width: 1920px;
+    height: 1080px;
+    margin: 0;
+}
+#app {
+  width: 1920px;
+  height: 1080px;
+  transform-origin: 0 0;
+}
+.font {
+    color: #FFFFFF;
+}
+.container-border {
+    border: 1px solid rgba(122, 222, 255, 1);
+}
+.container-title {
+    margin: 10px;
+    background: linear-gradient(90deg, #459EC7, #103553, #091123);
+    height: 32px;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 32px;
+    padding-left: 11px;
+}
+@media screen and (max-width: 750px) {
+  html, body {
+    width: inherit !important;
+    height: inherit !important;
+    margin: 0;
+    background-color: #0b1f37;
+  }
+  #app {
+    width: auto !important;
+    height: auto !important;
+  }
+}
+@media screen and (max-width: 1920px) {
+  html, body {
+    width: 1vw;
+    height: 1vh;
+    margin: 0;
+  }
+  /* #app {
+    width: auto !important;
+    height: auto !important;
+  } */
+}
+.el-drawer.rtl {
+  background-color: rgba(87, 88, 94, 0.3);
+}
